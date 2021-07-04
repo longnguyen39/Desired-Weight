@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4125644E24C182A10036B5C5 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4125644D24C182A10036B5C5 /* homePage.swift */; };
 		418B42D924BA3E2D00BD497F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B42D824BA3E2D00BD497F /* AppDelegate.swift */; };
 		418B42DB24BA3E2D00BD497F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B42DA24BA3E2D00BD497F /* SceneDelegate.swift */; };
 		418B42DD24BA3E2D00BD497F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B42DC24BA3E2D00BD497F /* ViewController.swift */; };
 		418B42E024BA3E2D00BD497F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418B42DE24BA3E2D00BD497F /* Main.storyboard */; };
 		418B42E224BA3E2F00BD497F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418B42E124BA3E2F00BD497F /* Assets.xcassets */; };
 		418B42E524BA3E2F00BD497F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418B42E324BA3E2F00BD497F /* LaunchScreen.storyboard */; };
+		418B42ED24BA590800BD497F /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B42EC24BA590800BD497F /* SecondPage.swift */; };
+		418B42EF24BA596600BD497F /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B42EE24BA596600BD497F /* ThirdPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4125644D24C182A10036B5C5 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		418B42D524BA3E2D00BD497F /* Desired Weight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desired Weight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		418B42D824BA3E2D00BD497F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418B42DA24BA3E2D00BD497F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		418B42E124BA3E2F00BD497F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418B42E424BA3E2F00BD497F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		418B42E624BA3E2F00BD497F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418B42EC24BA590800BD497F /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		418B42EE24BA596600BD497F /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,24 @@
 			children = (
 				418B42D824BA3E2D00BD497F /* AppDelegate.swift */,
 				418B42DA24BA3E2D00BD497F /* SceneDelegate.swift */,
-				418B42DC24BA3E2D00BD497F /* ViewController.swift */,
+				418B42F024BA598900BD497F /* Controller */,
 				418B42DE24BA3E2D00BD497F /* Main.storyboard */,
 				418B42E124BA3E2F00BD497F /* Assets.xcassets */,
 				418B42E324BA3E2F00BD497F /* LaunchScreen.storyboard */,
 				418B42E624BA3E2F00BD497F /* Info.plist */,
 			);
 			path = "Desired Weight";
+			sourceTree = "<group>";
+		};
+		418B42F024BA598900BD497F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4125644D24C182A10036B5C5 /* homePage.swift */,
+				418B42DC24BA3E2D00BD497F /* ViewController.swift */,
+				418B42EC24BA590800BD497F /* SecondPage.swift */,
+				418B42EE24BA596600BD497F /* ThirdPage.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Long Nguyen";
 				TargetAttributes = {
 					418B42D424BA3E2D00BD497F = {
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418B42ED24BA590800BD497F /* SecondPage.swift in Sources */,
+				418B42EF24BA596600BD497F /* ThirdPage.swift in Sources */,
 				418B42DD24BA3E2D00BD497F /* ViewController.swift in Sources */,
+				4125644E24C182A10036B5C5 /* homePage.swift in Sources */,
 				418B42D924BA3E2D00BD497F /* AppDelegate.swift in Sources */,
 				418B42DB24BA3E2D00BD497F /* SceneDelegate.swift in Sources */,
 			);
@@ -192,6 +212,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,16 +307,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MW9LW989JF;
+				DEVELOPMENT_TEAM = 7Q54M9F3YT;
 				INFOPLIST_FILE = "Desired Weight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LongNguyen.weatherApp4.Desired-Weight";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.DesiredWeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,16 +327,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MW9LW989JF;
+				DEVELOPMENT_TEAM = 7Q54M9F3YT;
 				INFOPLIST_FILE = "Desired Weight/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LongNguyen.weatherApp4.Desired-Weight";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen.DesiredWeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
